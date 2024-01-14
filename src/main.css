@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+  }
+  body {
+      font: 300 13px/1.6 sans-serif, Helvetica, Arial;
+      height: 100%;
+      position: relative;
+      margin: 0;
+  }
+  main {
+    padding-top:5rem;
+  }
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+section h1 {
+ width: 100%;
+ font-size: 3rem;
+ text-align: center;
+ margin: 0;
+}
+
+.wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    width:500px;
+    padding:3rem;
+    border:1px solid #000;
+    margin-bottom: 4rem;
+
+  }
+
+
+form{
+    width: 100%;
+}
+
+input:not(#submit){
+    width: 100%;
+    border: none;
+    border-bottom:1px solid #000;
+    height: 45px;
+    font-size: 2rem;
+}
+
+input::placeholder{
+    opacity: .5;
+    font-size: 1.3rem;
+}
+
+input#submit {
+    width: 10rem;
+    height: 4rem;
+    margin-top: 3rem; 
+    transition:background-color .25s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+input#submit:hover, input#submit:focus, input#submit:active{
+  background-color: #000;
+  color: #fff;
+}
+
+
+label {
+    font-size: 2rem;
+}
+
+
+.wrapper p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.wrapper div{
+    margin-bottom:3rem;  
+}
